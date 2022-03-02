@@ -1,7 +1,7 @@
 const express=require('express');
 const router=express.Router();
 
-const {createUser,loginUser,posts}=require('../controllers/user')
+const {createUser,loginUser}=require('../controllers/user')
 //VALIDATION
 
 
